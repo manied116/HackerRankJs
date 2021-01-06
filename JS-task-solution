@@ -1,0 +1,86 @@
+...................10 days chellange........................
+
+day-0-----hello world---
+
+function greeting(parameterVariable) {
+    
+   // console.log('Hello, World!');
+    console.log(parameterVariable);//
+  }
+
+day-0------data types---
+
+function performOperation(secondInteger, secondDecimal, secondString) {
+
+    const firstInteger = 4;
+    
+    const firstDecimal = 4.0;
+    
+    const firstString = 'HackerRank ';
+    
+   // console.log( firstInteger + parseInt(secondInteger));
+    
+    console.log(firstDecimal + parseFloat(secondDecimal));
+    
+    console.log(firstString + secondString);//
+}
+
+day-1 ----arithmetic oper---
+
+function getArea(length, width) {
+    let area;
+  //  area = length * width
+    return area;//
+}
+
+function getPerimeter(length, width) {
+    let perimeter;
+ //   perimeter = (length + width) * 2
+    return perimeter;//
+}
+
+day-1-----functions----------
+
+//function factorial(n){
+   if(n==0){
+       return 1;
+   }else{
+       return n * factorial(n-1);
+   }
+}
+///
+day-1 ------let and const------
+
+function main() {
+   
+   // let r = readLine();
+    const PI = Math.PI;
+   
+    console.log(PI * (r * r));
+    console.log( 2 * PI * r);//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
