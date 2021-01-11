@@ -79,24 +79,41 @@ function getGrade(score) {
     console.log(getGrade(score));//
 }
 
+day-2 ------conditional statement switch
 
+function getLetter(s) {
+    let letter;
+    
+  //   switch (true) {
+        case "aeiou".includes(s[0]):
+            letter = "A"
+            break;
+        case "bcdfg".includes(s[0]):
+            letter = "B"
+            break;
+        case "hjklm".includes(s[0]):
+            letter = "C"
+            break;
+        default:
+            letter = "D"
+            break;
+    }//
 
+    return letter;
 
+day-3 ------try,catch,finally---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function reverseString(s) {
+    try{
+        s = s.split('').reverse().join('');
+    }
+    catch(e){
+        console.log(e.message)
+    }
+    finally{
+        console.log(s)
+    }
+}
 
 
 
