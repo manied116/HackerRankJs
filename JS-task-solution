@@ -115,7 +115,27 @@ function reverseString(s) {
     }
 }
 
+day-3------------throw---
 
+function isPositive(a) {
+  //  if(a<=0)   {
+        throw(a===0 ? new Error('Zero Error'):
+                new Error('Negative Error'))
+    }
+    else{
+        return "YES"
+    }//
+}
+day-4---------rec obj------
+
+function Rectangle(a, b) {
+    //return {
+        "length":a,
+        "width":b,
+        "perimeter": 2*a+2*b,
+        "area":a*b
+    }//
+}
 
 
 
