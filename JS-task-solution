@@ -150,4 +150,18 @@ class Square extends Rectangle{
 }//
 }
 
+day-5 arrow functions---
+
+function modifyArray(nums) {
+//    return nums.map(ele => {
+        if (ele % 2 == 0) 
+           {
+              return ele * 2
+           }
+        else {
+            return ele * 3
+        }
+    })//
+}
+
 
